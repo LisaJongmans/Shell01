@@ -3,11 +3,11 @@ Piscine
 
 ex07: 
 
-!Write a command line that displays the output of a cat /etc/passwd command > cat /etc/passwd
+!Write a command line that displays the output of a cat /etc/passwd command     > cat /etc/passwd
 
-!removing comments, 
+!removing comments,     > sed -e '/^[ \t]*#/d'
 
-!every other line starting from the second line, 
+!every other line starting from the second line,    > 
 
 !reversing each login, 
 
